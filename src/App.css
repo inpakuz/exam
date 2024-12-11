@@ -1,0 +1,84 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.currency {
+  background-color: #97d9eb;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.conv {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.inpConvert {
+  width: 10rem;
+  padding: 2px 25px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 180px;
+}
+
+.selectConvert {
+  padding: 3px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  margin-left: 70px;
+}
+.to{
+  margin-left: 50px;
+}
+
+.btnConvert {
+  padding: 3px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+  margin-left: 200px;
+  background-color: rgb(99, 210, 210);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
